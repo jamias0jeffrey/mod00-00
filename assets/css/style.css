@@ -1,6 +1,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	font-family: 'Lobster', cursive;
 }
 body {
 	/*background-color: red;*/	
@@ -8,6 +9,34 @@ body {
 
 #main-section {
 	background-color: brown;
+}
+
+.about {
+	width: 60%;
+	/*margin: 0 auto;*/
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}	
+
+.my-picture {
+	height: 120px;
+	border-radius: 50%;
+	border-style: double;
+	border-color: gold;
+}
+
+h1 {
+	color: green;
+	font-size: 30px
+	font-weight: normal;
+}
+
+#dev_desc {
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 #portfolio-section {
@@ -20,5 +49,12 @@ body {
 
 #about-section {
 	background-color: pink;
+}
+
+#main-section,
+#portfolio-section,
+#skills-section,
+#about-section {
+	height: 100vh;
 }
 
