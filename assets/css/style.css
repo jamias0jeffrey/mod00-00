@@ -11,6 +11,19 @@ body {
 	background-color: brown;
 }
 
+section#main-section > a {
+	color: skyblue;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+}
+
+a[href="https://github.com/jamias0jeffrey"] {
+	position: absolute;
+	right: 0;
+	top: 0;
+}	
+
 .about {
 	width: 60%;
 	/*margin: 0 auto;*/
