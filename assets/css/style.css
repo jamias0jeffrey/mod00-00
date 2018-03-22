@@ -1,3 +1,24 @@
-body {
-	/*background-color: red;*/
+* {
+	padding: 0;
+	margin: 0;
 }
+body {
+	/*background-color: red;*/	
+}
+
+#main-section {
+	background-color: brown;
+}
+
+#portfolio-section {
+	background-color: violet;
+}
+
+#skills-section {
+	background-color: yellow;
+}
+
+#about-section {
+	background-color: pink;
+}
+
