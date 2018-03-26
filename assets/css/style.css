@@ -4,7 +4,8 @@
 	font-family: 'Lobster', cursive;
 }
 body {
-	/*background-color: red;*/	
+	/*background-color: red;*/
+	background-attachment: fixed;
 }
 
 /*#main-section {
@@ -40,9 +41,9 @@ a > img {
 
 .my-picture {
 	height: 120px;
-	border-radius: 50%;
-	border-style: double;
-	border-color: gold;
+	border-radius: 70%;
+	border-style: solid;
+	border-color: white;
 }
 
 h1 {
@@ -62,15 +63,15 @@ h1 {
 }
 
 #portfolio-section {
-	background-color: violet;
+	/*background-color: violet;*/
 }
 
 #skills-section {
-	background-color: yellow;
+	/*background-color: yellow;*/
 }
 
 #about-section {
-	background-color: pink;
+	/*background-color: pink;*/
 }
 
 #main-section,
