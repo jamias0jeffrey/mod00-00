@@ -1,6 +1,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 	font-family: 'Lobster', cursive;
 }
 body {
@@ -8,35 +9,41 @@ body {
 	background-attachment: fixed;
 }
 
-/*#main-section {
-	background-color: brown;
-}*/
+#wrapper {
+	width: 70%;
+	margin: 0 auto;
+	min-height: 100vh;
+	background-color: red;
+}
 
-section#main-section > a {
-	color: black;
+.links {
+	padding-left: 10px;
 	text-decoration: none;
-	padding: 15px;
-	display: block;
-}
-
-a[href="https://github.com/jamias0jeffrey"] {
-	position: absolute;
-	right: 0;
+	position: sticky;
 	top: 0;
-}	
-
-a > img {
-	width: 60px;
-	padding: 0;
+	z-index: 1;
 }
+
+.email,
+.git,
+.linkedin,
+.facebook {
+	display: inline-block;
+	margin: 0 auto;
+	font-size: 30px;
+	padding-top: 10px;
+}
+
 .about {
 	width: 60%;
-	/*margin: 0 auto;*/
 	text-align: center;
 	position: absolute;
 	top: 50%;
 	left: 50%;
+	padding: 15px;
 	transform: translate(-50%, -50%);
+	border-radius: 25px;
+	background: radial-gradient(pink, blue);
 }	
 
 .my-picture {
@@ -62,22 +69,77 @@ h1 {
 	text-indent: 5%;
 }
 
+section#portfolio-section > h2,
+section#skills-section > h2,
+section#about-section > h2 {
+	padding: 25px 0;
+	text-align: center;
+}
+
 #portfolio-section {
-	/*background-color: violet;*/
+	padding: 15px ;
+}
+
+section#portfolio-section > h2 {
+	background-color: white;
+	margin: 5px;
+}
+
+div#portfolio-sect-1 {
+	height: 88vh;
+}
+
+.portfolio-sect-2 {
+	display: inline-block;
+	width: 32.95%;
+	min-height: 100%;
+	padding: 20px;
+}
+
+.portfolio-sect-2 > img {
+	width: 100%;
+}
+
+.portfolio-sect-2 > h3 {
+	padding: 20px 0;
+}
+
+.portfolio-sect-2 > p {
+	height: 200px;
+}
+
+.sect-csp-1 {
+	background-color: blue;
+}
+
+.sect-csp-2 {
+	background-color: orange;
+}
+
+.sect-csp-3 {
+	background-color: yellow;
 }
 
 #skills-section {
-	/*background-color: yellow;*/
+	padding: 15px;
+}
+
+section#skills-section > h2 {
+	background-color: white;
 }
 
 #about-section {
-	/*background-color: pink;*/
+	padding: 15px;
+}
+
+section#about-section > h2 {
+	background-color: white;
 }
 
 #main-section,
 #portfolio-section,
 #skills-section,
 #about-section {
-	height: 100vh;
+	min-height: 100vh;
 }
 
