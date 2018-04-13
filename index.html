@@ -5,88 +5,180 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatibile" content="IE-Edge">
 
+	<!-- Load favicon -->
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
 	<title>Jeffrey Jamias - My Web Developer Portfolio</title>
 
 	<!-- Icons -->
 	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 
 	<!-- Font -->
-	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Chicle" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+	<!-- MD Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="assets/css/mdb.min.css">
 
 	<!-- Imports custom stylesheets -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
-<body background="assets/img/back.jpg">
+<body>
 
-	<main id="wrapper">
+	<!--Navbar-->
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark indigo">
+
+		<!-- Navbar brand -->
+		<a class="navbar-brand" href="#">-----</a>
+
+		<!-- Collapse button -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+		aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+
+	<!-- Collapsible content -->
+	<div class="collapse navbar-collapse" id="basicExampleNav">
 
 		<!-- Links -->
-		<div class="links">
-			<div class="email">
-				<a href="mailto:jamias0jeffrey@gmail.com"><i class="far fa-envelope"></i></a>
-			</div>
-			<div class="git">
-				<a href="https://github.com/jamias0jeffrey"><i class="fab fa-github"></i></a>
-			</div>
-			<div class="linkedin">
-				<a href="https://www.linkedin.com/in/jeffrey-jamias-a3b94a143/"><i class="fab fa-linkedin"></i></a>
-			</div>
-			<div class="facebook">
-				<a href="https://www.facebook.com/jeffrey.jamias"><i class="fab fa-facebook-square"></i></a>
-			</div>
-		</div>
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="#">Portfolio
+					<span class="sr-only">(current)</span>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Skill Set</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">About</a>
+			</li>
+		</ul>
+		<!-- Links -->
+	</div>
+	<!-- Collapsible content -->
+	</nav>
+	<!--/.Navbar-->
 
-		<!-- Main Section -->
-		<section id="main-section">
-			<div class="about">
-				<img class="my-picture" src="assets/img/me.jpg">
-				<h1>Jeffrey B. Jamias</h1>
-				<h2 id="dev_desc">Full-Stack Web Developer</h2>
-				<p class="bio">I am currently attending a Coding Bootcamp in Tuitt. I work as a Quality Assurance for websites and mobile applications but I decided to shift career becuase its really my drean to create my own applications or websites someday and see my name on the credits of an applications or websites that people are using.</p>
-			</div>
-
-		</section>
-
-		<!-- Portfolio Section -->
-		<section id="portfolio-section">
-			<h2>Portfolio</h2>
-			<div id="portfolio-sect-1">
-				<div class="portfolio-sect-2 sect-csp-1">
-					<img src="https://Lorempixel.com/200/200/" alt="Capstone Project 1">
-					<h3>Capstone Project 1</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<div class="container-fluid">
+		<main id="wrapper">
+			<div class="row">
+				<div class="col-xs-12 col-md-12">
+					<!-- Main Section -->
+					<section id="main-section">
+						<div class="about">
+							<img class="my-picture" src="assets/img/me.jpg">
+							<h1>Jeffrey B. Jamias</h1>
+							<h2 id="dev_desc">Full-Stack Web Developer</h2>
+							<p class="bio">I am currently attending a Coding Bootcamp in Tuitt. I work as a Quality Assurance for websites and mobile applications but I decided to shift career becuase its really my dream to create my own applications or websites someday and see my name on the credits of an applications or websites that people are using.</p>
+						</div>
+					</section>
 				</div>
-				<div class="portfolio-sect-2 sect-csp-2">
-					<img src="https://Lorempixel.com/200/200/" alt="Capstone Project 2">
-					<h3>Capstone Project 1</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div> <!-- End of Section -->
+
+			<!-- Portfolio Section -->
+			<div class="row">
+				<div class="col-xs-12 col-md-12">
+					<section id="portfolio-section">
+						<h2>Portfolio</h2>
+						<div class="row">
+							<div class="col-md-3">
+								<img src="https://Lorempixel.com/200/200/" alt="Capstone Project 1">
+								<h3><a href="http://jamias0jeffrey.github.io/csp1">Capstone Project 1</a></h3>
+								<p>Final Fantasy Tactics Advance guide website is a simple website created to help the people who will play the game. It contains the different characters, jobs, races, missions, equipments and some in-game screenshot.</p>
+							</div>
+							<div class="col-md-3">
+								<img src="https://Lorempixel.com/200/200/" alt="Capstone Project 2">
+								<h3>Capstone Project 1</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+							<div class="col-md-3">
+								<img src="https://Lorempixel.com/200/200/" alt="Capstone Project 3">
+								<h3>Capstone Project 1</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+						</div>
+					</section>
 				</div>
-				<div class="portfolio-sect-2 sect-csp-3">
-					<img src="https://Lorempixel.com/200/200/" alt="Capstone Project 3">
-					<h3>Capstone Project 1</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div> <!-- End of Portfolio -->
+				
+			<!-- Skills Section -->
+			<div class="row">
+				<div class="col-xs-12 col-md-12">
+						<h2>Skills Set</h2>
+					<div class="row">
+						<div class="col-md-6">
+							<h3>Front-End Development</h3>
+							<p>Collection of front-end develepment badges</p>
+						</div>
+						<div class="col-md-6">
+							<h3>Back-End Development</h3>
+							<p>Collection of back-end develepment badges</p>
+						</div>
+					</div>
 				</div>
-			</div>
-		</section>
-			
+			</div> <!-- Skill set -->
+				
 
-		<!-- Skills Section -->
-		<section id="skills-section">
-			<h2>Skills Set</h2>
-		</section>
-			
+			<!-- About Section -->
+			<section id="about-section">
+				<h2>About</h2>
+				<div class="row">
+					<div class="col-md-6">
+						<h3>About Me</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-		<!-- About Section -->
-		<section id="about-section">
-			<h2>About</h2>
-		</section>
-			
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-	</main>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+						<footer>
+							<p>Copyright &copy; 2018 by Jeffrey Jamias</p>
+						</footer>
+					</div>
+
+					<div class="col-md-6">
+						<h3>Contact Me</h3>
+						<form action="" method="">
+							<label for="username">Name</label>	<input type="text" name="username" id="username" placeholder="Enter your name">					
+
+							<label for="usermail">Email Address</label>
+							<input type="email" name="usermail" id="usermail" placeholder="Enter your email address">
+
+							<label for="message">Message</label>
+							<textarea id="message" placeholder="Enter your message"></textarea>
+
+							<input type="submit" name="submit" value="Send Message">
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
 
 
 	<!-- Imports custom scripts -->
 	<script type="text/javascript" src="assets/js/script.js"></script>
+
+
 </body>
 </html>
